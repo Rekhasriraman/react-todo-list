@@ -33,7 +33,7 @@ function Form({ addTask }) {
 
   return (
     <form onSubmit={(e) => submitHandler(e)}>
-      <input
+      <input className='input'
         type="text"
         placeholder="Enter a task"
         value={inputValue}
